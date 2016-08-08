@@ -1,0 +1,34 @@
+{
+    "total_results": 5000,
+    "total_pages": 167,
+    "page": 1,
+    "image_set_count": 28,
+    "sets": [
+        {
+            "id": 135062715,
+            "url": "/135062715/test-flash-cards/",
+            "title": "test",
+            "created_by": "Shawna_Hamilton",
+            "term_count": 15,
+            "created_date": 1461629475,
+            "modified_date": 1461629904,
+            "published_date": 1461629904,
+            "has_images": true,
+            "subjects": [
+    "french",
+    "animals"
+  ],
+            "visibility": "public",
+            "editable": "only_me",
+            "has_access": true,
+            "can_edit": false,
+            "description": "",
+            "lang_terms": "en",
+            "lang_definitions": "photo",
+            "password_use": 0,
+            "password_edit": 0,
+            "access_type": 2,
+            "creator_id": 22420660
+        }
+    ]
+}

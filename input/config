@@ -1,0 +1,7 @@
+dto_rename_map = {
+    "term": "term_info"
+}
+
+dto_ignore_fields = {
+    "item": "members_sample"
+}

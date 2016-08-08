@@ -1,0 +1,352 @@
+[
+    {
+        "id": 1277349735,
+        "term": "Alabama",
+        "definition": "Montgomery",
+        "image": null,
+        "rank": 0
+    },
+    {
+        "id": 842513565,
+        "term": "Alaska",
+        "definition": "Juneau",
+        "image": null,
+        "rank": 1
+    },
+    {
+        "id": 413281845,
+        "term": "Arizona",
+        "definition": "Phoenix",
+        "image": null,
+        "rank": 2
+    },
+    {
+        "id": 413281846,
+        "term": "Arkansas",
+        "definition": "Little Rock",
+        "image": null,
+        "rank": 3
+    },
+    {
+        "id": 413281847,
+        "term": "California",
+        "definition": "Sacramento",
+        "image": null,
+        "rank": 4
+    },
+    {
+        "id": 413281848,
+        "term": "Colorado",
+        "definition": "Denver",
+        "image": null,
+        "rank": 5
+    },
+    {
+        "id": 413281849,
+        "term": "Connecticut",
+        "definition": "Hartford",
+        "image": null,
+        "rank": 6
+    },
+    {
+        "id": 413281850,
+        "term": "Delaware",
+        "definition": "Dover",
+        "image": null,
+        "rank": 7
+    },
+    {
+        "id": 413281851,
+        "term": "Florida",
+        "definition": "Tallahassee",
+        "image": null,
+        "rank": 8
+    },
+    {
+        "id": 413281852,
+        "term": "Georgia",
+        "definition": "Atlanta",
+        "image": null,
+        "rank": 9
+    },
+    {
+        "id": 413281853,
+        "term": "Hawaii",
+        "definition": "Honolulu",
+        "image": null,
+        "rank": 10
+    },
+    {
+        "id": 413281854,
+        "term": "Idaho",
+        "definition": "Boise",
+        "image": null,
+        "rank": 11
+    },
+    {
+        "id": 413281855,
+        "term": "Illinois",
+        "definition": "Springfield",
+        "image": null,
+        "rank": 12
+    },
+    {
+        "id": 413281856,
+        "term": "Indiana",
+        "definition": "Indianapolis",
+        "image": null,
+        "rank": 13
+    },
+    {
+        "id": 413281857,
+        "term": "Iowa",
+        "definition": "Des Moines",
+        "image": null,
+        "rank": 14
+    },
+    {
+        "id": 413281858,
+        "term": "Kansas",
+        "definition": "Topeka",
+        "image": null,
+        "rank": 15
+    },
+    {
+        "id": 413281859,
+        "term": "Kentucky",
+        "definition": "Frankfort",
+        "image": null,
+        "rank": 16
+    },
+    {
+        "id": 413281860,
+        "term": "Louisiana",
+        "definition": "Baton Rouge",
+        "image": null,
+        "rank": 17
+    },
+    {
+        "id": 413281861,
+        "term": "Maine",
+        "definition": "Augusta",
+        "image": null,
+        "rank": 18
+    },
+    {
+        "id": 413281862,
+        "term": "Maryland",
+        "definition": "Annapolis",
+        "image": null,
+        "rank": 19
+    },
+    {
+        "id": 413281863,
+        "term": "Massachusetts",
+        "definition": "Boston",
+        "image": null,
+        "rank": 20
+    },
+    {
+        "id": 413281864,
+        "term": "Michigan",
+        "definition": "Lansing",
+        "image": null,
+        "rank": 21
+    },
+    {
+        "id": 413281865,
+        "term": "Minnesota",
+        "definition": "St. Paul",
+        "image": null,
+        "rank": 22
+    },
+    {
+        "id": 413281866,
+        "term": "Mississippi",
+        "definition": "Jackson",
+        "image": null,
+        "rank": 23
+    },
+    {
+        "id": 413281867,
+        "term": "Missouri",
+        "definition": "Jefferson City",
+        "image": null,
+        "rank": 24
+    },
+    {
+        "id": 413281868,
+        "term": "Montana",
+        "definition": "Helena",
+        "image": null,
+        "rank": 25
+    },
+    {
+        "id": 413281869,
+        "term": "Nebraska",
+        "definition": "Lincoln",
+        "image": null,
+        "rank": 26
+    },
+    {
+        "id": 413281870,
+        "term": "Nevada",
+        "definition": "Carson City",
+        "image": null,
+        "rank": 27
+    },
+    {
+        "id": 413281871,
+        "term": "New Hampshire",
+        "definition": "Concord",
+        "image": null,
+        "rank": 28
+    },
+    {
+        "id": 413281872,
+        "term": "New Jersey",
+        "definition": "Trenton",
+        "image": null,
+        "rank": 29
+    },
+    {
+        "id": 413281873,
+        "term": "New Mexico",
+        "definition": "Santa Fe",
+        "image": null,
+        "rank": 30
+    },
+    {
+        "id": 413281874,
+        "term": "New York",
+        "definition": "Albany",
+        "image": null,
+        "rank": 31
+    },
+    {
+        "id": 413281875,
+        "term": "North Carolina",
+        "definition": "Raleigh",
+        "image": null,
+        "rank": 32
+    },
+    {
+        "id": 413281876,
+        "term": "North Dakota",
+        "definition": "Bismarck",
+        "image": null,
+        "rank": 33
+    },
+    {
+        "id": 413281877,
+        "term": "Ohio",
+        "definition": "Columbus",
+        "image": null,
+        "rank": 34
+    },
+    {
+        "id": 413281878,
+        "term": "Oklahoma",
+        "definition": "Oklahoma City",
+        "image": null,
+        "rank": 35
+    },
+    {
+        "id": 413281879,
+        "term": "Oregon",
+        "definition": "Salem",
+        "image": null,
+        "rank": 36
+    },
+    {
+        "id": 413281880,
+        "term": "Pennsylvania",
+        "definition": "Harrisburg",
+        "image": null,
+        "rank": 37
+    },
+    {
+        "id": 413281881,
+        "term": "Rhode Island",
+        "definition": "Providence",
+        "image": null,
+        "rank": 38
+    },
+    {
+        "id": 413281882,
+        "term": "South Carolina",
+        "definition": "Columbia",
+        "image": null,
+        "rank": 39
+    },
+    {
+        "id": 413281883,
+        "term": "South Dakota",
+        "definition": "Pierre",
+        "image": null,
+        "rank": 40
+    },
+    {
+        "id": 413281884,
+        "term": "Tennessee",
+        "definition": "Nashville",
+        "image": null,
+        "rank": 41
+    },
+    {
+        "id": 413281885,
+        "term": "Texas",
+        "definition": "Austin",
+        "image": null,
+        "rank": 42
+    },
+    {
+        "id": 413281886,
+        "term": "Utah",
+        "definition": "Salt Lake City",
+        "image": null,
+        "rank": 43
+    },
+    {
+        "id": 413281887,
+        "term": "Vermont",
+        "definition": "Montpelier",
+        "image": null,
+        "rank": 44
+    },
+    {
+        "id": 413281888,
+        "term": "Virginia",
+        "definition": "Richmond",
+        "image": null,
+        "rank": 45
+    },
+    {
+        "id": 413281889,
+        "term": "Washington",
+        "definition": "Olympia",
+        "image": null,
+        "rank": 46
+    },
+    {
+        "id": 413281890,
+        "term": "West Virginia",
+        "definition": "Charleston",
+        "image": null,
+        "rank": 47
+    },
+    {
+        "id": 413281891,
+        "term": "Wisconsin",
+        "definition": "Madison",
+        "image": null,
+        "rank": 48
+    },
+    {
+        "id": 413281892,
+        "term": "Wyoming",
+        "definition": "Cheyenne",
+        "image": null,
+        "rank": 49
+    }
+]

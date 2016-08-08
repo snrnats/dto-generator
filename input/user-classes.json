@@ -1,0 +1,72 @@
+[
+    {
+        "id": 3011814,
+        "url": "https://quizlet.com/class/3011814/",
+        "name": "io_Opta",
+        "set_count": 1,
+        "user_count": 1,
+        "created_date": 1469133724,
+        "has_access": true,
+        "access_level": "admin",
+        "role_level": 3,
+        "description": "",
+        "admin_only": false,
+        "is_public": false,
+        "has_password": false,
+        "member_add_sets": true,
+        "school": {
+            "name": "WellTweak",
+            "id": 1484643,
+            "city": "Minsk",
+            "state": null,
+            "country": "Belarus",
+            "country_code": "by",
+            "latitude": 53.9045398,
+            "longitude": 27.5615244
+        },
+        "sets": [
+            {
+                "id": 126031896,
+                "url": "/126031896/test_title_api-flash-cards/",
+                "title": "test_title_api",
+                "created_by": "snrnats",
+                "term_count": 2,
+                "created_date": 1457358983,
+                "modified_date": 1457358983,
+                "published_date": 1457358983,
+                "has_images": false,
+                "subjects": [
+    "french",
+    "animals"
+  ],
+                "visibility": "public",
+                "editable": "only_me",
+                "has_access": true,
+                "can_edit": true,
+                "description": "",
+                "lang_terms": "en",
+                "lang_definitions": "en",
+                "password_use": 0,
+                "password_edit": 0,
+                "access_type": 2,
+                "creator_id": 29046840,
+                "added_by": {
+                    "username": "snrnats",
+                    "account_type": "free",
+                    "profile_image": "https://quizlet.com/a/i/animals/41.XvsA.jpg",
+                    "id": 29046840
+                }
+            }
+        ],
+        "members": [
+            {
+                "username": "snrnats",
+                "role": "admin",
+                "role_level": 3,
+                "email_notification": true,
+                "profile_image": "https://quizlet.com/a/i/animals/41.XvsA.jpg",
+                "membership_id": 20220025
+            }
+        ]
+    }
+]

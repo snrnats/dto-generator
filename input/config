@@ -1,7 +1,12 @@
-dto_rename_map = {
-    "term": "term_info"
-}
-
 dto_ignore_fields = {
     "item": "members_sample"
+}
+
+dto_rename_map = {
+    "term": "term_info",
+    "studied": "studied_set_summary"
+}
+
+dto_fields_map = {
+    ("term_info", "id"): "int64"
 }

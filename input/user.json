@@ -1,4 +1,5 @@
 {
+  "__name__": "user",
   "username": "catchdave",
   "account_type": "plus",
   "sign_up_date": 1300591868,
@@ -13,35 +14,35 @@
   },
   "sets": [
     {
-	  "id": 6009523,
-	  "url": "http:\/\/quizlet.com\/6009523\/french-animals-30-flash-cards\/",
-	  "title": "french animals 3.0",
-	  "created_by": "catchdave",
-	  "term_count": 13,
-	  "created_date": 1310497102,
-	  "modified_date": 1310497363,
-	  "has_images": true,
-	  "subjects": [
-    "french",
-    "animals"
-  ]
- 	}
+      "id": 6009523,
+      "url": "http:\/\/quizlet.com\/6009523\/french-animals-30-flash-cards\/",
+      "title": "french animals 3.0",
+      "created_by": "catchdave",
+      "term_count": 13,
+      "created_date": 1310497102,
+      "modified_date": 1310497363,
+      "has_images": true,
+      "subjects": [
+        "french",
+        "animals"
+      ]
+    }
   ],
   "favorite_sets": [
     {
-	  "id": 6009523,
-	  "url": "http:\/\/quizlet.com\/6009523\/french-animals-30-flash-cards\/",
-	  "title": "french animals 3.0",
-	  "created_by": "catchdave",
-	  "term_count": 13,
-	  "created_date": 1310497102,
-	  "modified_date": 1310497363,
-	  "has_images": true,
-	  "subjects": [
-    "french",
-    "animals"
-  ]
-  	}
+      "id": 6009523,
+      "url": "http:\/\/quizlet.com\/6009523\/french-animals-30-flash-cards\/",
+      "title": "french animals 3.0",
+      "created_by": "catchdave",
+      "term_count": 13,
+      "created_date": 1310497102,
+      "modified_date": 1310497363,
+      "has_images": true,
+      "subjects": [
+        "french",
+        "animals"
+      ]
+    }
   ],
   "studied": [
     {
@@ -59,9 +60,9 @@
         "modified_date": 1308066716,
         "has_images": false,
         "subjects": [
-    "french",
-    "animals"
-  ]
+          "french",
+          "animals"
+        ]
       }
     }
   ],

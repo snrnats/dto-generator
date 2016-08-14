@@ -7,6 +7,7 @@ types_map = {
     "str": "string",
     "list": "List<{type}>",
     "int": "int",
+    "int64": "long",
     "float": "float"
 }
 

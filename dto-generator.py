@@ -7,11 +7,13 @@ import functools
 import shutil
 import argparse
 import sys
+import math
 
 
 class Config:
     dto_rename_map = []
     dto_ignore_fields = []
+    dto_fields_map = []
 
 
 class CaseFormatter(string.Formatter):
@@ -56,8 +58,14 @@ class DtoDescription:
         return str(self.name) + "-" + functools.reduce(lambda agr, field: agr + str(field) + "\n", self.fields, "")
 
 
-def get_type_name(type_class):
-    type_name = type_class.__name__
+def bytes_needed(n):
+    if n == 0:
+        return 1
+    return int(math.log(abs(n * 2), 256)) + 1
+
+
+def get_type_name(value):
+    type_name = type(value).__name__
     return type_name
 
 
@@ -89,12 +97,12 @@ def reduce_flatten_dto(dto, known_dto, config, suggested_name=None):
                 new_dto = reduce_flatten_dto(item, known_dto, config, suggested_name)
                 element_type = new_dto.name
             else:
-                element_type = get_type_name(type(item))
+                element_type = get_type_name(item)
             if element_type:
                 if not elements_type:
                     elements_type = element_type
                 elif elements_type != element_type:
-                    elements_type = get_type_name(type(object))
+                    elements_type = get_type_name(object)
         return elements_type
     elif isinstance(dto, dict):
         fields = []
@@ -114,12 +122,12 @@ def reduce_flatten_dto(dto, known_dto, config, suggested_name=None):
                     elements_type = reduce_flatten_dto(value, known_dto, config, element_name)
                     if not elements_type:
                         elements_type = inflection.singularize(key)
-                    field = FieldDescription(key, get_type_name(type(value)), elements_type)
+                    field = FieldDescription(key, get_type_name(value), elements_type)
                 else:
                     if key == "__name__":
                         dto_name = value
                     else:
-                        field = FieldDescription(key, get_type_name(type(value)))
+                        field = FieldDescription(key, get_type_name(value))
                 if field is not None:
                     fields.append(field)
         new_dto = DtoDescription(dto_name, fields)
@@ -147,9 +155,18 @@ def remove_fields(dtos, ignored_fields):
             dto.fields.remove(field)
 
 
+def rename_fields(dtos, fields_map):
+    for dto in dtos:
+        for field in dto.fields:
+            if (dto.name, field.name) in fields_map:
+                ignored_field = fields_map[(dto.name, field.name)]
+                field.type_name = ignored_field
+
+
 def apply_config(dtos, config):
     remove_fields(dtos, config.dto_ignore_fields)
     rename_dto(dtos, config.dto_rename_map)
+    rename_fields(dtos, config.dto_fields_map)
 
 
 def generate_field(field):

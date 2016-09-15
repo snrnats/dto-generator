@@ -66,8 +66,9 @@
       }
     }
   ],
-  "classes": [
+  "groups": [
     {
+      "__name__": "class",
       "id": 103561,
       "name": "?Old School learns espanol!",
       "set_count": 1,
